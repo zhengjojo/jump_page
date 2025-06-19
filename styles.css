@@ -274,11 +274,14 @@ body {
     }
 
     .header {
-        margin: 6rem 0 12rem;
+        margin: 2rem 0;
+        padding: 1rem 0;
     }
 
     .header h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding: 0;
     }
 
     body {
@@ -319,5 +322,27 @@ body {
 @media (max-width: 767px) {
     .section-title {
         font-size: 1.2rem;
+    }
+
+    .tip-card {
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .tip-content {
+        max-width: 100%;
+    }
+
+    .tip-title {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+
+    .tip-text {
+        font-size: 0.6rem;
+        line-height: 1.6;
+        text-indent: 2em;
+        margin-bottom: 6px;
     }
 }
