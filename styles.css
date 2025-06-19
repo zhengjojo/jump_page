@@ -337,12 +337,12 @@ body {
     }
 
     .tip-title {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-bottom: 8px;
     }
 
     .tip-text {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         line-height: 1.6;
         text-indent: 2em;
         margin-bottom: 6px;
