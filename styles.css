@@ -325,6 +325,8 @@ body {
     }
 
     .tip-card {
+        background: none; /* 移除背景图 */
+        background-color: rgb(211, 223, 233); /* 提示色背景，视觉更温和 */
         border-radius: 8px;
         padding: 16px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
